@@ -1,13 +1,13 @@
 html {
   font-size: 10px;
-  background: url(http://i.imgur.com/b9r5sEL.jpg) bottom center;
+  background: url(https://cdn.pixabay.com/photo/2015/03/31/02/25/drums-700456_1280.jpg) bottom center;
   background-size: cover;
 }
 
 body,html {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: Montserrat, sans-serif
 }
 
 .keys {
@@ -20,7 +20,6 @@ body,html {
 
 .key {
   border: .4rem solid black;
-  border-radius: .5rem;
   margin: 1rem;
   font-size: 1.5rem;
   padding: 1rem .5rem;
@@ -34,18 +33,20 @@ body,html {
 
 .playing {
   transform: scale(1.1);
-  border-color: #ffc600;
-  box-shadow: 0 0 1rem #ffc600;
+  border-color: #eeff00;
+  box-shadow: 0 0 1rem #eeff00;
 }
 
 kbd {
   display: block;
   font-size: 4rem;
+  font-family: Montserrat, sans-serif;
+  font-weight: 800
 }
 
 .sound {
   font-size: 1.2rem;
   text-transform: uppercase;
   letter-spacing: .1rem;
-  color: #ffc600;
+  color: #eeff00;
 }
